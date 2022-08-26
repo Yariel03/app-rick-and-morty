@@ -1,1 +1,23 @@
 <p>pg-memory-card works!</p>
+<p>Nivel 1!</p>
+<div class="row">
+    <div class="col-md-8">
+        <div class="container-cards">
+            <app-com-memory-card *ngFor="let character of this.characterService.dataCharacter" [character]="character">
+            </app-com-memory-card>
+        </div>
+    </div>
+    <div class="col-md-4">
+
+
+        <div class="col-md-2">
+            <h5>SCORE: 0</h5>
+        </div>
+        <div class="col-md-2">
+            <h5>TIMER: 30</h5>
+        </div>
+
+
+
+    </div>
+</div>
