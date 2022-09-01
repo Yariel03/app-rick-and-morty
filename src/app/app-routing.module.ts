@@ -9,6 +9,10 @@ const routes: Routes = [
     component: PgHomeComponent,
   },
   {
+    path: 'home',
+    component: PgHomeComponent,
+  },
+  {
     path: 'memorycard',
     component: PgMemoryCardComponent,
   },

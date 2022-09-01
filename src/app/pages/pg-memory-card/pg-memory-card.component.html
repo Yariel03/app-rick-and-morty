@@ -1,5 +1,5 @@
-<p>pg-memory-card works!</p>
-<p>Nivel 1!</p>
+<!-- cspell:disable -->
+
 <div class="row">
     <div class="col-md-8">
         <div class="container-cards">
@@ -11,10 +11,13 @@
 
 
         <div class="col-md-2">
-            <h5>SCORE: 0</h5>
+            <h5>PUNTAJE: {{this.servicePuntaje.getScore}}</h5>
         </div>
         <div class="col-md-2">
-            <h5>TIMER: 30</h5>
+            <h5>TIEMPO: {{tiempo}}</h5>
+        </div>
+        <div class="col-md-2">
+            <h5>INTENTOS: {{this.servicePuntaje.getcontadorIntentos}}</h5>
         </div>
 
 

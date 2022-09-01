@@ -1,3 +1,5 @@
-html {
+.contenedor,
+html,
+body {
   background-color: black;
 }
